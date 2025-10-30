@@ -1,4 +1,4 @@
-import User from "./models/userModel.js";
+import User from "/scripts/models/userModel.js";
 
 export const users = [];
 

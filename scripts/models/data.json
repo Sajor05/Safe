@@ -2,12 +2,12 @@
   {
     "id": 1,
     "nombre": "Juan",
-    "saturacion": 1,
+    "saturacion": 7,
     "temperatura": 26.45,
     "frecuenciaCardiaca": 72.5,
-    "hora": 15,
+    "hora": 1,
     "minutos": 42,
-    "segundos": 7,
+    "segundos": 11,
     "presionAtmosferica": 1012.56,
     "latitud": -34.603722,
     "longitud": -58.381592
