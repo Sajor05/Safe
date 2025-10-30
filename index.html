@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Monitoreo ESP32</title>
+  </head>
+  <body>
+    <div class="title text-center p-5">
+      <h1>S A F E</h1>
+    </div>
+    <div class="container">
+      <!-----------------------------------------
+      -- T A R J E T A S  D E  U S U A R I O S --
+      ------------------------------------------>
+
+      <main class="main-container"></main>
+    </div>
+
+    <!-------------
+    -- M O D A L --
+    -------------->
+    <div class="modal">
+      <div class="modal-content">
+        <span class="form-close">&times;</span>
+
+        <!--D A T O S  P E R S O N A L E S-->
+        <h4>Datos personales</h4>
+        <form>
+          <div class="form-datos-personales">
+            <div class="datos-nombreApellido">
+              <h6>Nombre y apellido</h6>
+              <input
+                class="input-nombre"
+                type="text"
+                placeholder="Nombre"
+                required
+              />
+              <input
+                class="input-apellido"
+                type="text"
+                placeholder="Apellido..."
+                required
+              />
+            </div>
+            <div class="container-aux">
+              <div class="datos-documento">
+                <h6>DNI</h6>
+                <input
+                  class="input-documento"
+                  type="text"
+                  placeholder="DNI..."
+                  required
+                />
+              </div>
+
+              <div class="datos-telefono">
+                <h6>Telefono de emergencia</h6>
+                <input
+                  class="input-telefono"
+                  type="text"
+                  placeholder="Telefono de emergencia..."
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+          <!--D A T O S  M E D I C O S-->
+          <h4>Datos medicos</h4>
+          <div class="form-datos-medicos">
+            <div class="container-aux">
+              <div class="datos-alergias">
+                <h6>Alergias</h6>
+                <input
+                  class="input-alergias"
+                  type="text"
+                  placeholder="Alergias..."
+                  required
+                />
+              </div>
+              <div class="datos-operaciones">
+                <h6>Operaciones</h6>
+                <input
+                  class="input-operaciones"
+                  type="text"
+                  placeholder="Operaciones..."
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="container-aux">
+              <div class="datos-obraSocial">
+                <h6>Obra social</h6>
+                <select name="Obra social..." id="obraSocial">
+                  <option value="none">Eliga su obra social...</option>
+                  <option value="1">PAMI</option>
+                  <option value="2">OSDE</option>
+                  <option value="3">IOMA</option>
+                  <option value="4">OSECAC</option>
+                  <option value="5">UP</option>
+                  <option value="6">OSDEPYM</option>
+                  <option value="7">OSDOP</option>
+                  <option value="8">OSPAT</option>
+                  <option value="9">OSPE</option>
+                  <option value="10">OSMATA</option>
+                </select>
+              </div>
+              <div class="datos-medicamentos">
+                <h6>Medicamentos</h6>
+                <input
+                  class="input-medicamentos"
+                  type="text"
+                  placeholder="Medicamentos..."
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+          <button class="submit" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+    <script type="module" src="/scripts/userView.js"></script>
+    <script src="/scripts/modal.js"></script>
+  </body>
+</html>

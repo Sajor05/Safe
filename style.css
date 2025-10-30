@@ -1,0 +1,220 @@
+/*---------------
+-- P A G I N A --
+---------------*/
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+/*-----------------
+-- G E N E R A L --
+-----------------*/
+.title {
+  color: white;
+  background-color: #0066cc;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 45px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+/*--------------------------------
+-- U S E R S  C O N T A I N E R --
+--------------------------------*/
+.main-container {
+  display: flex;
+  justify-content: center;
+  height: 41rem;
+  width: 95rem;
+  gap: 60px;
+  margin-top: 3rem;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+/*--------------------
+-- U S E R  C A R D --
+--------------------*/
+.user-card {
+  width: 290px;
+  height: 470px;
+  background-color: #f0f0f0;
+  padding: 40px;
+  margin-top: 3rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  clip-path: polygon(
+    15px 0,
+    calc(100% - 15px) 0,
+    100% 15px,
+    100% calc(100% - 15px),
+    calc(100% - 15px) 100%,
+    15px 100%,
+    0 calc(100% - 15px),
+    0 15px
+  );
+}
+
+/*---------------------------------
+-- U S E R  C A R D  H E A D E R --
+---------------------------------*/
+.user-card-form {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -25px;
+}
+
+.user-card header {
+  text-align: center;
+}
+
+.user-card-username {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.user-card-openform {
+  text-align: center;
+  background-color: white;
+  color: #0066cc;
+  border: 1px solid gray;
+  border-radius: 360%;
+  cursor: pointer;
+}
+
+/*-----------------------------
+-- U S E R  C A R D  M A P S --
+-----------------------------*/
+.user-card-location {
+  text-align: center;
+}
+
+/*-----------------------------
+-- U S E R  C A R D  D A T A --
+-----------------------------*/
+.data-items {
+  margin-top: 20px;
+}
+
+.data-items {
+  display: flex;
+  gap: 3px;
+  margin-top: 20px;
+}
+
+.data-info {
+  border-bottom: 1px dotted #ccc;
+}
+
+.data-items-last {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.icons {
+  width: 20px;
+  height: 20px;
+}
+
+.key {
+  font-weight: bold;
+  color: #0066cc;
+}
+
+.value {
+  font-weight: bold;
+}
+
+/*--------------------
+-- U S E R  F O R M --
+--------------------*/
+
+.modal-inputs-container {
+  display: flex;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin-left: 23rem;
+  margin-top: 1rem;
+  padding: 20px;
+  border-radius: 5px;
+  width: 60%;
+}
+
+.form-close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.form-close:hover,
+.form-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form-datos-personales {
+  margin-top: 20px;
+}
+
+.form-datos-medicos {
+  margin-top: 10px;
+}
+
+.container-aux {
+  display: flex;
+  gap: 4px;
+}
+
+input {
+  border: none;
+  width: 400px;
+  margin: 5px 0 22px 0;
+  padding: 15px;
+  background: #f1f1f1;
+}
+
+select {
+  border: none;
+  width: 429px;
+  margin: 5px 0 22px 0;
+  padding: 15px;
+  background: #f1f1f1;
+}
+
+.submit {
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  font-size: large;
+  font-weight: bolder;
+  border: none;
+  border-radius: 20px;
+  background-color: #0066cc;
+}

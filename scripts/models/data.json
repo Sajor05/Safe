@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "nombre": "Juan",
+    "saturacion": 1,
+    "temperatura": 26.45,
+    "frecuenciaCardiaca": 72.5,
+    "hora": 15,
+    "minutos": 42,
+    "segundos": 7,
+    "presionAtmosferica": 1012.56,
+    "latitud": -34.603722,
+    "longitud": -58.381592
+  },
+  {
+    "id": 2,
+    "nombre": "Cristian",
+    "saturacion": 5,
+    "temperatura": 28.32,
+    "frecuenciaCardiaca": 27.5,
+    "hora": 15,
+    "minutos": 42,
+    "segundos": 7,
+    "presionAtmosferica": 1012.56,
+    "latitud": -34.603722,
+    "longitud": -58.381592
+  },
+  {
+    "id": 3,
+    "nombre": "Pepita",
+    "saturacion": 5,
+    "temperatura": 28.32,
+    "frecuenciaCardiaca": 27.5,
+    "hora": 15,
+    "minutos": 42,
+    "segundos": 7,
+    "presionAtmosferica": 1012.56,
+    "latitud": -34.603722,
+    "longitud": -58.381592
+  }
+]
