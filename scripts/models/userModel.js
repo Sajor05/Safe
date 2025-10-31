@@ -34,10 +34,10 @@ export default class User {
           </header>
           <section class="user-card-location">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1951.0355817609109!2d-58.72243324074303!3d-34.67395099960236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbffae4d81fc9%3A0x11904f58bef60c45!2sEscuela%20T%C3%A9cnica%201!5e0!3m2!1ses!2sar!4v1761688313271!5m2!1ses!2sar"
-              width="250"
-              height="150"
-              style="border: 1px solid #ccc; border-radius: 5px"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1951.0355817609109
+              !2d${this.longitud}
+              !3d${this.latitud}
+              !2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbffae4d81fc9%3A0x11904f58bef60c45!2sEscuela%20T%C3%A9cnica%201!5e0!3m2!1ses!2sar!4v1761688313271!5m2!1ses!2sar"
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>

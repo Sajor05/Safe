@@ -97,6 +97,13 @@ body {
   text-align: center;
 }
 
+iframe {
+  width: 250px;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 /*-----------------------------
 -- U S E R  C A R D  D A T A --
 -----------------------------*/
