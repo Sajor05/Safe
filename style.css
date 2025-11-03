@@ -83,6 +83,7 @@ body {
 
 .user-card-openform {
   text-align: center;
+  font-weight: bolder;
   background-color: white;
   color: #0066cc;
   border: 1px solid gray;
